@@ -1,0 +1,14 @@
+localhost:2017
+
+# clean up our urls, removing the need to explicitly specify .md
+ext .md
+
+errors logs/error.log
+log logs/access.log
+
+# serve markdown files in blog directory as html pages, using our
+# prewritten post template
+markdown /blog {
+	template /templates/post.html
+	template index /templates/index.html
+}
