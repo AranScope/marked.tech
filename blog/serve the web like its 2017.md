@@ -1,13 +1,15 @@
-[marked.tech](https://marked.tech/blog) influence by the medium of text, a regular thought accelerator, but they scorn at the thought of using a monolothic CMS just to get their ideas to the world.
+[marked.tech](https://marked.tech/blog) influence by the medium of text, a regular thought accelerator but they scorn at the thought of using a monolothic CMS just to get their ideas to the world.
 
 ![caddy anner image](http://www.tecmint.com/wp-content/uploads/2015/05/caddy-web-server.jpg)
 
 In comes their secret weapon: [Caddy.](https://github.com/mholt/caddy)
 
-Caddy is an open source web server, written in GO. The main feature of interest here is 'directives', a low level plugin system. [marked.tech](https://marked.tech) are followers of the markdown race, enjoying many different flavours from Github to Ghost, so what better choice is there for marking up their ideas?
+Caddy is an open source web server written in GO. The main feature of interest here is 'directives', a low level plugin system supported by many third party developers. [marked.tech](https://marked.tech) are followers of the markdown race, they enjoy many different flavours from Github to Ghost so what better choice is there for marking up their ideas?
 
 ## Templates
-Marked care about the content, not the code, keep it simple. In comes [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com), with an inoffensive name this might not stand out from the crown, but with some minor adaptations marked have a theme that their readers love.
+Form follows function, Content before code (or something along those lines) keep it simple they like to say. In comes [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com), with an inoffensive name this might not stand out from the crowd  but with some minor adaptations marked have a theme that their readers love.
+
+![image of marked.tech blog](https://i.gyazo.com/7762058fba812183c132b6f096a51dba.png)
 
 Caddy has a set of predefined template tags from the go standard library [text/template](https://golang.org/pkg/text/template/) these allow us to insert useful information like a readers IP address, the current date, or a rendered markdown file.
 
@@ -63,10 +65,13 @@ There's one undocumented oddity in Caddy's markdown directive, the index.md post
 
 Index is considered a special post, it can be reached by visiting the root url of the blog, in our case [marked.tech/blog](https://marked.tech/blog). Alongside a custom template file that removes our '- return to home -' link, we're all wrapped up.
 
+![image of marked.tech index page](https://i.gyazo.com/fd5cd354cf82ce55d154f0ffbb867786.png)
+
 So now marked.tech can get back to disrupting technology as we know it, and you can get back to tanning behind your laptop screen at 3am.
 
 Checkout the project at [marked.tech/blog](https://marked.tech/blog)
 
 Checkout the source at [github/marked.tech](https://github.com/aranscope/marked.tech)
 
-Checkout this post (again) at [marked.tech](/blog/serve%20the%20web%20like%20its%202017)
+Checkout this post (meta) at [aran.site/marked-tech](https://blog.aran.site/marked-tech)
+
