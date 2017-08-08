@@ -25,7 +25,7 @@ li{
 /* get rid of that nasty blue for links */
 a:link,
 a:visited {
-    color: #27ae60; 
+    color: #27ae60;
 }
 
 /* Lato font for headings */
@@ -57,6 +57,19 @@ h3 {
 /* helper for centred links */
 .centered-text {
     text-align: center;
+}
+
+pre, code {
+    font-family: monospace;
+    line-height: 1.65em;
+    font-size: 1.1em;
+    padding: 2em;
+
+}
+
+pre {
+  background-color: #efefef;
+  tab-size: 4;
 }
 
 /* media query to add top margin for screens larger than tablets */
