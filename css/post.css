@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400');
 
+html {
+  width: 100%;
+}
 /* centred body */
 body {
     margin: 0 auto;
@@ -20,6 +23,7 @@ li{
     text-rendering: geometricPrecision;
     text-decoration: none;
     color: inherit;
+    word-wrap: break-word;
 }
 
 /* get rid of that nasty blue for links */
@@ -70,6 +74,11 @@ pre, code {
 pre {
   background-color: #efefef;
   tab-size: 4;
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* media query to add top margin for screens larger than tablets */
