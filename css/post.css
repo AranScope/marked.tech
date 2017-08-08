@@ -71,6 +71,11 @@ pre, code {
 
 }
 
+hr {
+  border: 1px solid #efefef;
+
+}
+
 table, th, td {
   border: 1px solid #efefef;
 }
@@ -81,7 +86,9 @@ th, td {
 }
 
 pre {
-  background-color: #efefef;
+  border-radius: 5px;
+  border: 1px solid #E3EDF3;
+  background-color: #F7FAFB;
   tab-size: 4;
   overflow-x: auto;
 }
