@@ -71,6 +71,15 @@ pre, code {
 
 }
 
+table, th, td {
+  border: 1px solid #efefef;
+}
+
+th, td {
+  padding: 1em;
+
+}
+
 pre {
   background-color: #efefef;
   tab-size: 4;
